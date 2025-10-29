@@ -13,7 +13,7 @@ It aims to present a clean, responsive and professional digital presence.
 - **Other**: (Add any additional libraries / tools you used: e.g., React Router, Framer Motion, Tailwind CSS, etc.)
 
 ## 📁 Repository Structure 
-"""
+```
 ├── .gitignore
 ├── README.md
 ├── eslint.config.js
@@ -40,7 +40,7 @@ It aims to present a clean, responsive and professional digital presence.
     ├── index.css
     └── main.jsx
 └── vite.config.js
-"""
+```
 
 ## 🎯 Features  
 - Responsive layout that works on mobile, tablet and desktop  
