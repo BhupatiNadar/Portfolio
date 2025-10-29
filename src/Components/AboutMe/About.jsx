@@ -11,7 +11,6 @@ const About = () => {
     "Python",
     "MySQL",
     "Tailwind CSS",
-    "Git",
   ];
 
   return (
