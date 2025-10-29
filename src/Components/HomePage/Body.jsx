@@ -1,5 +1,5 @@
 import React from "react";
-import personImage from "../../Asset/personImage.jpg";
+import Photo from "../../Asset/Photo.jpg"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Body = () => {
@@ -7,7 +7,7 @@ const Body = () => {
     <div className="w-full min-h-screen bg-slate-900 text-white pt-24 px-6 sm:px-16 flex flex-col md:flex-row items-center justify-center md:justify-evenly space-y-16 md:space-y-0">
       <div className="flex flex-col items-center">
         <img
-          src={personImage}
+          src={Photo}
           alt="Bhupati Nadar"
           className="rounded-full w-72 h-72 sm:w-80 sm:h-80 object-cover shadow-lg shadow-cyan-900/40"
         />

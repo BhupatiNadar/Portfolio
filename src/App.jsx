@@ -6,6 +6,8 @@ import Header from "./Components/HomePage/Header";
 import Body from "./Components/HomePage/Body"
 import About from './Components/AboutMe/About';
 import ProjectPage from './Components/ProjectPage/ProjectPage';
+import ContactMe from './Components/ContactMe/ContactMe';
+
 const App = () => {
   return (
     <Routes>
@@ -17,6 +19,7 @@ const App = () => {
             <Body/>
             <About/>
             <ProjectPage/>
+            <ContactMe/>
           </>
         }
       />
