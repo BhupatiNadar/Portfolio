@@ -53,6 +53,7 @@ It aims to present a clean, responsive and professional digital presence.
 1. Clone the repository:  
    ```bash
    git clone https://github.com/BhupatiNadar/Portfolio.git
+   ```
 2.Navigate into the project directory:
 cd Portfolio
 3.Install dependencies:
