@@ -11,7 +11,7 @@ const Body = () => {
           alt="Bhupati Nadar"
           className="rounded-full w-72 h-72 sm:w-80 sm:h-80 object-cover shadow-lg shadow-cyan-900/40"
         />
-
+        <div className="h-10"></div>
         <div className="flex gap-8 mt-10">
           <a
             href="https://github.com/BhupatiNadar"

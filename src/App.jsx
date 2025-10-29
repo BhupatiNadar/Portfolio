@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Header from "./Components/HomePage/Header";
 import Body from "./Components/HomePage/Body"
+import About from './Components/AboutMe/About';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <>
             <Header/>
             <Body/>
+            <About/>
           </>
         }
       />
