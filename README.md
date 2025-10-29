@@ -77,7 +77,7 @@ Follow these steps to run the project locally:
    Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).  
 
 ## 📬 Contact  
-If you’d like to connect, feel free to reach out via email or LinkedIn (add your actual contact details here).  
+If you’d like to connect, feel free to reach out via email or LinkedIn (nadarbhupati@gmail.com).  
 
 ---
 
