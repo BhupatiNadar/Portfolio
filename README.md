@@ -1,16 +1,61 @@
-# React + Vite
+# Bhupati Nadar — Portfolio Website  
+[Live Demo](#) | [GitHub Repository](https://github.com/BhupatiNadar/Portfolio.git)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview  
+This is my personal portfolio website built to showcase my projects, skills, experience and to provide a point of contact. It’s implemented using **React**, bundled with **Vite**, and styled with modern CSS practices (you can adjust with your actual stack if different).  
+It aims to present a clean, responsive and professional digital presence.
 
-Currently, two official plugins are available:
+## 🧱 Tech Stack  
+- **Framework / Library**: React  
+- **Build Tool**: Vite  
+- **Linting / Code Quality**: ESLint  
+- **Languages**: JavaScript, HTML, CSS  
+- **Other**: (Add any additional libraries / tools you used: e.g., React Router, Framer Motion, Tailwind CSS, etc.)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Repository Structure  
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+    └── vite.svg
+├── src
+    ├── App.jsx
+    ├── Asset
+    │   ├── Ecommerce.png
+    │   └── Photo.jpg
+    ├── Components
+    │   ├── AboutMe
+    │   │   └── About.jsx
+    │   ├── ContactMe
+    │   │   └── ContactMe.jsx
+    │   ├── HomePage
+    │   │   ├── Body.jsx
+    │   │   └── Header.jsx
+    │   └── ProjectPage
+    │   │   └── ProjectPage.jsx
+    ├── index.css
+    └── main.jsx
+└── vite.config.js
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Features  
+- Responsive layout that works on mobile, tablet and desktop  
+- Section for “About Me”, “Skills”, “Projects”, and “Contact”  
+- Project cards with links to live demo & GitHub repository  
+- Easy to update / maintain — you can add new projects in `src/pages/Projects.jsx` (or your equivalent)  
+- Clean codebase with ESLint rules in place  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Installation & Local Setup  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/BhupatiNadar/Portfolio.git
+2.Navigate into the project directory:
+cd Portfolio
+3.Install dependencies:
+npm install
+4.Launch the development server:
+npm run dev
+5.Open your browser and go to http://localhost:5173 (or the port shown) to view.
