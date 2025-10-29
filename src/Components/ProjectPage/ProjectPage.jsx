@@ -6,15 +6,13 @@ const ProjectPage = () => {
 
   const DemoPopup = () => {
     setShowPopup(true);
-    setTimeout(() => setShowPopup(false), 2500); // auto-hide after 2.5s
+    setTimeout(() => setShowPopup(false), 2500); 
   };
 
   return (
     <div className="w-full min-h-screen bg-slate-900 flex flex-col items-center py-10 relative">
       <h1 className="text-white font-bold text-5xl mb-10">Projects</h1>
       <div className="h-10"></div>
-
-      {/* Project Card */}
       <div className="bg-slate-800 rounded-3xl shadow-2xl p-8 w-96 sm:w-[28rem] text-center transition-transform hover:scale-105">
         <img
           src={Ecommerce}
@@ -46,8 +44,6 @@ const ProjectPage = () => {
           </button>
         </div>
       </div>
-
-      {/* Popup message */}
       {showPopup && (
         <div className="absolute bottom-10 bg-white text-slate-900 px-6 py-3 rounded-xl shadow-xl text-lg font-semibold animate-bounce">
           Demo will be added soon 🚀
